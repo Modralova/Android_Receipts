@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#FFBB86FC</color>
+    <color name="purple_500">#FF6200EE</color>
+    <color name="purple_700">#FF3700B3</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="colorPrimary">#ffcd01</color>
+    <color name="statusBar">#212121</color>
+    <color name="bg_color">#fffff2</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="blue">#0000FF</color>
+    <color name="red">#FF0000</color>
+    <color name="ADDRESS">#1b3e59</color>
+    <color name="DATE">#ecb545</color>
+    <color name="ITEM">#003c44</color>
+    <color name="NIP">#f16b3e</color>
+    <color name="R_ID">#f13b36</color>
+    <color name="QUANTITY">#195962</color>
+    <color name="SHOP">#6D630A</color>
+    <color name="PER_UNIT">#252932</color>
+    <color name="PRICE">#2980b9</color>
+    <color name="TOTAL">#e74c3c</color>
+    <color name="TAX">#3a5169</color>
+    <color name="CURRENCY">#3498db</color>
+
+
+
+
+    <color name="ic_launcher_background">#002121</color>
+</resources>

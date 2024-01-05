@@ -1,0 +1,69 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:id="@+id/main_activity"
+    android:background="#eef5e0"
+
+    >
+
+
+    <ScrollView
+        android:id="@+id/scroll_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_above="@id/linear_holder"
+        android:layout_alignParentTop="true"
+        android:layout_margin="8dp"
+        android:background="#eef5e0">
+
+
+        <LinearLayout
+
+            android:id="@+id/text_clipboard"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+        </LinearLayout>
+
+
+    </ScrollView>
+
+    <LinearLayout
+        android:id="@+id/linear_holder"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true">
+
+<!--        <Button-->
+<!--            android:id="@+id/button_capture"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="source" />-->
+
+<!--        <Button-->
+<!--            android:id="@+id/button_send"-->
+<!--            android:layout_width="0dp"-->
+<!--            android:layout_height="wrap_content"-->
+<!--            android:layout_margin="8dp"-->
+<!--            android:layout_weight="1"-->
+<!--            android:text="send data"-->
+<!--            -->
+<!--            />-->
+        <Button
+            android:id="@+id/button_add"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:layout_weight="1"
+            android:text="@string/add_element"
+
+            />
+    </LinearLayout>
+
+</RelativeLayout>

@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Paragony</string>
+    <string name="retake">ponów</string>
+    <string name="title_activity_manager_ocr">ustawienia OCR</string>
+
+    <string name="settings">ustawienia</string>
+    <string name="OCR_settings">skaner</string>
+    <string name="db_settings">baza danych</string>
+    <string name="tax_settings">podatki</string>
+
+    <string name="waiting_room">poczekalnia</string>
+    <string name="push">zachowaj</string>
+    <string name="pop">pobierz</string>
+
+    <string name="add_to_database">zapisz paragon</string>
+    <string name="read_data">pobierz dane</string>
+
+
+    <string name="cut">przytnij</string>
+    <string name="remove">usuń</string>
+    <string name="back">wróć</string>
+    <string name="save">zapisz</string>
+
+    <string name="data_preview">podgląd danych:</string>
+    <string name="required">WYMAGANE:</string>
+    <string name="date_check">dodaj datę w formacie: "rrrr-mm-dd gg:mm"</string>
+    <string name="total_check">dodaj sumę za zakupy</string>
+    <string name="tax_check">dodaj sumę PTU</string>
+    <string name="shop_check">dodaj sklep</string>
+    <string name="item_check">dodaj przynajmniej jeden artykuł</string>
+    <string name="item_price_check">musi mieć podaną cenę</string>
+    <string name="item_quantity_check">musi mieć podaną ilość</string>
+    <string name="item_unit_check">musi mieć podaną cenę jednostki</string>
+    <string name="item_tag_check">musi mieć co najmniej jeden tag</string>
+
+
+    <string name="fromJson">wczytaj z pliku JSON</string>
+    <string name="shopping_sum">SUMA ZA ZAKUPY</string>
+    <string name="receipt_sum">SUMA Z PARAGONU</string>
+    <string name="TAX">PODATEK</string>
+    <string name="tax_sum">PTU razem</string>
+    <string name="receipt_tax">suma PTU z paragonu</string>
+
+
+    <string name="add_element">dodaj element</string>
+    <string name="add">dodaj</string>
+    <string name="asNew">jak nowy</string>
+    <string name="add_text_label">nowy</string>
+    <string name="editor">edytor</string>
+    <string name="category">kategoria:</string>
+    <string name="tags">tagi</string>
+    <string name="items">zakupione artykuły</string>
+
+    <string name="address">adres</string>
+    <string name="currency">waluta</string>
+    <string name="choose">wybierz</string>
+    <string name="date">data</string>
+    <string name="item">artykuł</string>
+    <string name="nip">NIP</string>
+    <string name="per_unit">za 1</string>
+    <string name="price">cena</string>
+    <string name="quantity">ilość</string>
+    <string name="receipt_id">nr paragonu</string>
+    <string name="shop">sklep</string>
+    <string name="total">SUMA</string>
+    <string name="total_tax">PTU</string>
+
+
+
+
+
+
+    <string name="numeric_check">tylko wartości liczbowe</string>
+    <string name="tax_rates">stawki podatków</string>
+    <string name="tax_a">VAT(A):</string>
+    <string name="tax_b">stawka obniżona(B):</string>
+    <string name="tax_c">stawka obniżona(C):</string>
+    <string name="tax_d">stawka obniżona(D):</string>
+    <string name="tax_e">zwolnienie(E):</string>
+    <string name="tax_f">od marży(F):</string>
+    <string name="tax_g">od marży(G):</string>
+
+    <string name="ow_quote">czy chcesz nadpisać?</string>
+    <string name="new_file">nowy</string>
+    <string name="overwrite">nadpisz</string>
+    <string name="json_success">dodane do poczekalni</string>
+    <string name="json_error">błąd zapisu</string>
+
+    <string name="db_settings_header">ustawienia bazy danych</string>
+    <string name="add_tag_label">dodaj nowy tag</string>
+    <string name="dump_db_label">utwórz kopia zapasową</string>
+    <string name="delete_db_label">usuń bazę danych</string>
+
+
+
+</resources>
+

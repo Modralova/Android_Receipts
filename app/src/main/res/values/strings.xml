@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Receipts</string>
+    <string name="retake">retake</string>
+    <string name="title_activity_manager_ocr">ManagerOCR</string>
+
+    <string name="settings">settings</string>
+    <string name="OCR_settings">scanner</string>
+    <string name="db_settings">database</string>
+    <string name="tax_settings">tax</string>
+
+    <string name="waiting_room">waiting room</string>
+    <string name="push">save</string>
+    <string name="pop">load</string>
+
+    <string name="add_to_database">save receipt</string>
+    <string name="read_data">read data</string>
+
+    <string name="cut">crop</string>
+    <string name="remove">remove</string>
+    <string name="back">back</string>
+    <string name="save">save</string>
+
+
+    <string name="data_preview">data preview:</string>
+    <string name="required">REQUIRED:</string>
+    <string name="date_check">add date in format: "yyyy-mm-dd hh:mm"</string>
+    <string name="total_check">add total sum for shopping</string>
+    <string name="tax_check">add total tax sum</string>
+    <string name="shop_check">add shop</string>
+    <string name="item_check">add at least one item</string>
+    <string name="item_price_check">should have a price</string>
+    <string name="item_quantity_check">should have a quantity</string>
+    <string name="item_unit_check">should have a price per unit</string>
+    <string name="item_tag_check">should have at least one tag added</string>
+
+    <string name="shopping_sum">SHOPPING SUM</string>
+    <string name="receipt_sum">RECEIPT SUM</string>
+    <string name="TAX">TAX</string>
+    <string name="tax_sum">tax sum</string>
+    <string name="receipt_tax">RECEIPT TAX</string>
+
+
+
+    <string name="fromJson">load from JSON</string>
+    <string name="add_element">new element</string>
+    <string name="add">add</string>
+    <string name="asNew">as new</string>
+    <string name="add_text_label">new text</string>
+    <string name="editor">editor</string>
+    <string name="category">category:</string>
+    <string name="tags">tags</string>
+    <string name="items">your items</string>
+
+    <string name="address">address</string>
+    <string name="currency">currency</string>
+    <string name="choose">choose</string>
+    <string name="date">date</string>
+    <string name="item">item</string>
+    <string name="nip">nip</string>
+    <string name="per_unit">per_unit</string>
+    <string name="price">price</string>
+    <string name="quantity">quantity</string>
+    <string name="receipt_id">receipt_id</string>
+    <string name="shop">shop</string>
+    <string name="total">total</string>
+    <string name="total_tax">tax</string>
+
+    <string name="numeric_check">numeric values only</string>
+    <string name="tax_rates">tax rates</string>
+    <string name="tax_a">VAT(A):</string>
+    <string name="tax_b">reduced rate(B):</string>
+    <string name="tax_c">reduced rate(C):</string>
+    <string name="tax_d">reduced rate(D):</string>
+    <string name="tax_e">tax free(E):</string>
+    <string name="tax_f">margin tax(F):</string>
+    <string name="tax_g">margin tax(G):</string>
+
+    <string name="ow_quote">do you want to overwrite?</string>
+    <string name="new_file">new file</string>
+    <string name="overwrite">overwrite</string>data stored in json
+    <string name="json_success">data stored in json</string>
+    <string name="json_error">error</string>
+
+    <string name="db_settings_header">database settings</string>
+    <string name="add_tag_label">add new tag</string>
+    <string name="dump_db_label">dump database</string>delete database
+    <string name="delete_db_label">delete database</string>
+
+
+
+
+</resources>
+

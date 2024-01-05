@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".TaxManager">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="5dp"
+            android:text="@string/db_settings_header"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="25dp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/add_tag_edit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="35dp"
+            android:layout_weight="4"
+            android:text="@string/add_tag_label"
+            android:textAlignment="textStart"
+            android:textColor="@color/black"
+
+            android:textSize="20dp"
+            android:textStyle="italic" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/tag_menu"
+            android:background="@drawable/ic_baseline_more_vert_24"
+            android:layout_marginRight="20dp"
+            android:layout_gravity="center"
+            android:onClick="showTagMenu"
+            android:layout_width="40dp"
+            android:layout_height="40dp"/>
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+
+        >
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/dump_db_label"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/dump_db"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_baseline_file_download_24"
+
+            />
+
+    </LinearLayout>
+    <LinearLayout
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:textSize="20dp"
+            android:layout_weight="4"
+            android:layout_marginLeft="30dp"
+            android:layout_marginRight="40dp"
+            android:text="@string/delete_db_label"
+            />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/drop_database"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:layout_marginRight="20dp"
+            android:background="@drawable/ic_baseline_delete_forever_24"/>
+
+    </LinearLayout>
+
+
+</LinearLayout>

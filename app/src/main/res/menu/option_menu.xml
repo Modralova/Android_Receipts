@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:id="@+id/app_settings"
+        android:title="@string/settings"
+        app:showAsAction="never">
+        <menu>
+            <item
+                android:id="@+id/ocr_settings"
+                android:title="@string/OCR_settings"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/db_settings"
+                android:title="@string/db_settings"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/tax_settings"
+                android:title="@string/tax_settings"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/waiting_room"
+        android:title="@string/waiting_room"
+        app:showAsAction="never">
+
+
+        <menu>
+            <item
+                android:id="@+id/pop"
+                android:title="@string/pop"
+                app:showAsAction="never" />
+            <item
+                android:id="@+id/push"
+                android:title="@string/push"
+                app:showAsAction="never" />
+        </menu>
+    </item>
+    <item
+        android:id="@+id/add_to_db"
+        android:title="@string/add_to_database"
+        app:showAsAction="never" />
+
+    <item
+        android:id="@+id/image_cropper"
+        android:title="@string/read_data"
+        app:showAsAction="never" />
+
+
+</menu>
